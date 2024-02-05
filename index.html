@@ -1,7 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,26 +19,25 @@
 
 <body>
     <nav class="navigation">
-
-        <div class="logo1">
-            <img src="C:\Users\Aishwarya\Desktop\webtrigon website\images\logo1.jpj" class="logo">
+        <div class="brand-logo">
+            <img src="./images/logo1.jpj" alt="" class="logo">
             <h5>WEBTRIGON</h5>
         </div>
         <div class="links">
             <div class="social-media-networks">
-                <img src="images/instagram.jpj.svg">
-                <img src="C:\Users\Aishwarya\Desktop\webtrigon website\images\twitter.jpj.svg">
-                <img src="C:\Users\Aishwarya\Desktop\webtrigon website\images\linkedin.jpj.svg">
+                <img src="./images/instagram.jpj.svg">
+                <img src="./images/twitter.jpj.svg">
+                <img src="./images/linkedin.jpj.svg">
             </div>
-            <div>|</div>
-            <a href="">sayhello@webtrigon.com</a>
-            <div>|</div>
-            <a href="">+91 80881 37726</a>
-
+            <div class="contact">
+                <div class="divider"></div>
+                <a class="center-text" href="">sayhello@webtrigon.com</a>
+                <div class="divider"></div>
+                <a href="">+91 80881 37726</a>
+            </div>
         </div>
-
-
     </nav>
+
     <section class="purpose">
         <h1>
             Strategic, Innovative, Powerful leap
@@ -41,26 +45,24 @@
             Transformation.
         </h1>
         <p>
-            Our team of IT experts is committed to delivering top-notch
-            software and products that provide value to our clients and
-            a dynamic work environment for our team.expertise and creativity,
-            bring excitement and innovation to every project.
+            Our team of IT experts is committed to delivering top-notch software and products that provide value to
+            our clients and a dynamic work environment for our team. With a unique blend of expertise and
+            creativity, we bring excitement and innovation to every project.
         </p>
 
         <button>Let's talk</button>
-
-
     </section>
 
     <section class="case-study">
         <h5>CASE STUDY</h5>
         <h2>We enjoy solving problems for our customers.</h2>
 
-        <ul>
-            <li>
-
-                <img src="C:\Users\Aishwarya\Desktop\webtrigon website\images\strategy.jpj.svg" alt="">
-                <label>Strategy</label>
+        <ul class="case-study-list">
+            <li class="case-study-list-li">
+                <div class="case-study-list-li_image-container">
+                    <img src="./images/strategy.jpj.svg" alt="image">
+                    <label>Strategy</label>
+                </div>
                 <p>We take a systematic and data-driven
                     approach to understanding our client's needs
                     and developing a customised
@@ -70,80 +72,275 @@
 
 
             </li>
-            <li>
-                <div>
-                    <div><img src="C:\Users\Aishwarya\Desktop\webtrigon website\images\bulb.jpj.svg" alt=""></div>
+            <li class="case-study-list-li">
+                <div class="case-study-list-li_image-container">
+                    <img src="./images/bulb.jpj.svg" alt="">
                     <label>Innovation</label>
-
-                    <p>We continuously explore new technologies
-                        and methodologies to bring cutting-edge
-                        solutions to each project.</p>
                 </div>
+                <p>We continuously explore new technologies
+                    and methodologies to bring cutting-edge
+                    solutions to each project.</p>
             </li>
-            <li>
-                <div>
-                    <div><img src="C:\Users\Aishwarya\Desktop\webtrigon website\images\group.jpj.svg" alt=""></div>
+            <li class="case-study-list-li">
+                <div class="case-study-list-li_image-container">
+                    <img src="./images/group.jpj.svg" alt="">
                     <label>Collaboration</label>
-                    <p>We work closely with our clients to ensure
-                        that our solutions align with their goals
-                        and vision.</p>
-
                 </div>
+                <p>We work closely with our clients to ensure
+                    that our solutions align with their goals
+                    and vision.</p>
+
             </li>
 
         </ul>
     </section>
-    <section>
-        <div>
-            
-            <img src="C:\Users\Aishwarya\Desktop\webtrigon website\images\diceflow-img-1.jpg"
-            alt="">
-            <img src="c:\Users\Aishwarya\Downloads\diceflow-img-2.jpg" height="60rem" width="60rem"
-            alt="">
-        </div>
-        <div>
-            <label>Diceflow</label>
-            <p>This is an application that is delivered as a
-                service for any outreach- based
-                social organizations (where the
-                social organization reaches out to assist under
-                priveleged members of a society).</p>
-        </div>    
-           
-        
-    </section>
-    <section>
-        <div>
-            <img src="C:\Users\Aishwarya\Desktop\webtrigon website\images\marginz-img-1.jpg" 
-             alt="">
-            <img src="C:\Users\Aishwarya\Desktop\webtrigon website\images\marginz-img-2.jpg" alt=""></div>
-            <div><img src="C:\Users\Aishwarya\Desktop\webtrigon website\images\marginz-img-3.jpg" alt="""></div>
-        </div>
-        <div>
-            
-            <label>Marginz</label>
-            <p>This is a financial application that helps
-                startups to help analyze and quantify their finances,
-                and gives suggestions on when, where, and how
-                to optimize their processes, and which parts of their
-                business to focus on.
-        </div>
-    </section>
-    <section>
-        <div>
+    <section class="portfolio-list">
+        <section class="diceflow">
+            <div class="dice-flow-images">
 
-        
-                <div><img src=" C:\Users\Aishwarya\Desktop\webtrigon website\images\aidoos-img-1.jpg" height="60rem"
-                        width="60rem" alt=""></div>
-                <div><img src="C:\Users\Aishwarya\Desktop\webtrigon website\images\aidoos-img-2.jpg" height="40rem"
-                        width="40rem" alt=""></div>
+                <img src="./images/diceflow-img-1.jpg" alt="" class="image">
+                <img src="./images/diceflow-img-2.jpg" alt="" class="image">
+                <div class="fade-in is-visible"><svg height="78" viewBox="0 0 78 78" width="78"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle fill="#8D25C3" cx="39" cy="39" data-name="Ellipse 153" id="ellipse_153" opacity="0.279"
+                            r="39"></circle>
+                    </svg></div>
+                <div class="fade-in is-visible"><svg height="30" viewBox="0 0 78 78" width="78"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle fill="#207C12" cx="39" cy="39" data-name="Ellipse 153" id="ellipse_153" opacity="0.279"
+                            r="39"></circle>
+                    </svg></div>
+            </div>
+            <div class="dice-flow-container">
+                <label>Diceflow</label>
+                <p>This is an application that is delivered as a
+                    service for any outreach- based
+                    social organizations (where the
+                    social organization reaches out to assist under
+                    priveleged members of a society).
+                </p>
+                <div class="fade-in pentagon is-visible">
+                    <svg viewBox="0 0 374.667 376.311" xmlns="http://www.w3.org/2000/svg" width="400">
+                        <path fill="#B2AB51"
+                            d="M112.5,17.513a41,41,0,0,1,48.2,0l88.4,64.234a41,41,0,0,1,14.893,45.837L230.224,231.523a41,41,0,0,1-38.994,28.332H81.965a41,41,0,0,1-38.994-28.332L9.2,127.584A41,41,0,0,1,24.1,81.747Z"
+                            data-name="Polygon 30" id="polygon" opacity="0.2" transform="translate(199.06) rotate(50)">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="marginz">
+            <div class="marginz-images">
+                <img src="./images/marginz-img-1.jpg" alt="">
+                <img src="./images/marginz-img-2.jpg" alt="">
+                <img src="./images/marginz-img-3.jpg" alt="">
+                <div class="fade-in is-visible"><svg height="78" viewBox="0 0 78 78" width="78"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle fill="#1DB46E" cx="39" cy="39" data-name="Ellipse 153" id="ellipse_153" opacity="0.279"
+                            r="39"></circle>
+                    </svg></div>
+                <div class="fade-in is-visible"><svg height="78" viewBox="0 0 78 78" width="14"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle fill="#000000" cx="39" cy="39" data-name="Ellipse 153" id="ellipse_153" opacity="0.279"
+                            r="39"></circle>
+                    </svg></div>
+            </div>
+            <div>
+
+                <label>Marginz</label>
+                <p>This is a financial application that helps
+                    startups to help analyze and quantify their finances,
+                    and gives suggestions on when, where, and how
+                    to optimize their processes, and which parts of their
+                    business to focus on.
+            </div>
+        </section>
+        <section class="aidoos">
+            <div class="aidoos-images">
+                <img src=" ./images/aidoos-img-1.jpg" alt="">
+                <img src="./images/aidoos-img-2.jpg" alt="">
+                <div class="fade-in is-visible"><svg height="78" viewBox="0 0 78 78" width="78"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle fill="#081D77" cx="39" cy="39" data-name="Ellipse 153" id="ellipse_153" opacity="0.279"
+                            r="39"></circle>
+                    </svg></div>
+                <div class="fade-in is-visible"><svg height="30" viewBox="0 0 78 78" width="78"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle fill="#207C12" cx="39" cy="39" data-name="Ellipse 153" id="ellipse_153" opacity="0.279"
+                            r="39"></circle>
+                    </svg></div>
+            </div>
+            <div class="aidoos-description">
                 <label>Aidoos</label>
                 <p>large organizations. These organizations all
                     have set patterns in their processes, and there
                     are several ERPs in the market that fits the needs of
                     these organizations</p>
-
+                <div class="fade-in pentagon is-visible"><svg width="280" viewBox="0 0 374.667 376.311"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#C47423"
+                            d="M112.5,17.513a41,41,0,0,1,48.2,0l88.4,64.234a41,41,0,0,1,14.893,45.837L230.224,231.523a41,41,0,0,1-38.994,28.332H81.965a41,41,0,0,1-38.994-28.332L9.2,127.584A41,41,0,0,1,24.1,81.747Z"
+                            data-name="Polygon 30" id="polygon" opacity="0.2" transform="translate(199.06) rotate(50)">
+                        </path>
+                    </svg></div>
             </div>
+        </section>
+    </section>
+    <section class="services">
+        <h5>SERVICES</h5>
+        <h2>We offer a range of services and solutions.</h2>
+        <p>We are constantly hiring and training to diversify our services and provide a one-step experience for all
+            your technological needs.</p>
+        <ul class="services-types">
+            <li>
+                <div class="services-types-label-container active">
+                    <label>Frontend Development</label>
+                    
+                </div>
+                <div class="services-types-content-container active">
+                    <img src="./images/frontend-development.jpg" alt="">
+                    <p>With a user-centred design approach, build responsive and visually appealing interfaces.</p>
+                    <Ul>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>VAU</li>
+                        <li>Electron</li>
+                        <li>Ionic</li>
+                        <li>WebAssembly(Rust)</li>
+                    </Ul>
+                </div>
+            </li>
+            <li>
+                <div class="services-types-label-container">
+                    <label>Backend Development</label>
+                    
+                </div>
+                <div class="services-types-content-container">
+                    <img src="./images/backend-development.jpg">
+                    <p>Develop a secure and scalable system that can handle the demands of your business.</p>
+                
+                <ul>
+                    <li>Python—Django, Flask, Tornado</li>
+                    <li>Node—Express, Sails, Strapi</li>
+                    <li>Firebase</li>
+                    <li>Java—Spring MVC, Spring boot, Servlets</li>
+                    <li>Elixir—Phoenix</li>
+                    <li>C#—.Net MVC, .Net Core, WCF</li>
+                </ul>
+                </div>
+            </li>
+            <li>
+                <div class="services-types-label-container">
+                    <label>DevOps services<label>
+                    
+                </div>
+                <div class="services-types-content-container">
+                    <img src="./images/devops (1).jpg">
+                    <p>Automate and optimise your software delivery pipeline, ensuring faster and more reliable
+                        releases.</p>
+                    <ul>
+                        <li>Docker</li>
+                        <li>Docker Swarm</li>
+                        <li>Kubernetes</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="services-types-label-container">
+                    <label>Cloud solutions</label>
+                    
+                </div>
+                <div class="services-types-content-container">
+                    <img src="./images/cloud-solutions (1).jpg">
+                    <p>Elevate your business with seamless cloud migration, expert implementation, and reliable support.
+                    </p>
+                    <ul>
+                        <li>AWS</li>
+                        <li>GCP</li>
+                        <li>Azure</li>
+                        <li>Digital Ocean</li>
+                    </ul>
+
+                </div>
+            </li>
+            <li>
+                <div class="services-types-label-container">
+                    <label>User Interface & Experience</label>
+                    
+                </div>
+                <div class="services-types-content-container">
+                    <img src="./images/ui-ux (1).jpg">
+                    <p>Design intuitive and attractive interfaces that meet the unique needs of your users.</p>
+                    <ul>
+                        <li>Adobe XD</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Figma</li>
+                        <li>Photoshop</li>
+                        <li>Blender</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="services-types-label-container">
+                    <label>AI & ML</label>
+                    
+
+                </div>
+                <div class="services-types-content-container">
+                    <img src="./images/ai-ml (1).jpg">
+                    <p>Develop and deploy AI and ML solutions that solve real-world problems and drive business value.
+                    </p>
+                    <ul>
+                        <li>Bayesian Classification</li>
+                        <li>Neural Networks</li>
+                        <li>Deep Learning</li>
+                        <li>Simulated annealing</li>
+                        <li>Markov processes</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="services-types-label-container">
+                    <label>AR & VR</label>
+                    
+                </div>
+                <div class="services-types-content-container">
+                    <img src="./images/ar-vr (1).jpg">
+                    <p>Use cutting-edge technologies to create immersive and interactive experiences that bring your
+                        products and services to life.</p>
+                    <ul>
+                        <li>Unity</li>
+                        <li>WebXR</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="services-types-label-container">
+                    <label>Native App Development</label>
+                    
+                </div>
+                <div class="services-types-content-container">
+                    <img src="./images/native-app-development (1).jpg">
+                    <p>Develop native apps that deliver a seamless and responsive user experience on various devices and platforms.</p>
+                    <ul>
+                        <li>Swift—Apple</li>
+                        <li>Kotlin—Android</li>
+                        <li>React Native</li>
+                        <li>Flutter</li>
+                        <li>Xamarin</li>
+                        <li>Ionic—Capacitor</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="help">
+            <p>To know more about our service offerings, please <a href="">Contact us!</a></p>
+
+
+        </div>
+
 
 
     </section>
@@ -151,13 +348,6 @@
 
 
 
-
-
-
-
-
-
 </body>
-
 
 </html>
