@@ -549,12 +549,15 @@ ul {
 .services-types-content-container > p {
   margin: 0;
 }
-hr {
+/*hr {
   border: none;
-  border-top: 1px solid #000;
+  border-top: 1px;
   margin: 5px 0;
-  width: 40%;
-}
+  width: 70%;
+  height:2px;
+  color: #808080;
+  filter:brightness(10px);
+}*/
 .help p {
   text-align: left;
   width: 700px;
@@ -591,6 +594,7 @@ hr {
   font-size: 18px;
   letter-spacing: 00.27px;
   line-height: 40px;
+  padding-right: 70px;
 }
 .services-types-content-container li{
   font-weight:400;
@@ -602,6 +606,25 @@ hr {
 .services-types-content-container ul{
   display:flex;
   flex-direction: column;
+}
+.services-types-content-container .second-line{
+  display:inline-block;
+  margin-left: -20px;
+}
+
+.services-types-label-container .arrow-right {
+  display: none;
+}
+
+.services-types-label-container.active .arrow-right {
+  display: block;
+}
+
+.services-types-label-container #link{
+  font-weight:500;
+}
+.services-types-label-container.active #link{
+  font-weight:700;
 }
 
 
